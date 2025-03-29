@@ -1,4 +1,4 @@
-@import "../styles/partials/variables.scss";
+@use "../styles/partials/variables";
 
 * {
   font-family: monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,7 +16,7 @@
 }
 
 body{
-  background-color: $PRIMARY_COLOR;
-  color:$TEXT_COLOR;
+  background-color: variables.$PRIMARY_COLOR;
+  color:variables.$TEXT_COLOR;
 }
 
