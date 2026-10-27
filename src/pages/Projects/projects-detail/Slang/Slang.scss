@@ -1,0 +1,99 @@
+@use "../../../../../styles/partials/variables";
+
+
+.slang{
+    min-width: 0;
+
+    p + p{
+        margin-top: 0.75rem;
+    }
+
+    &__title{
+        font-weight: normal;
+        margin-bottom: 1rem;
+    }
+
+    &__section{
+        margin-top: 1.5rem;
+    }
+
+    &__resources{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem 1rem;
+        margin-bottom: 1.25rem;
+
+        a{
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: inherit;
+            font-size: inherit;
+
+            &:hover, &:focus-visible{
+                text-decoration: underline;
+            }
+
+            &:focus-visible{
+                outline: 2px solid currentColor;
+                outline-offset: 3px;
+            }
+        }
+    }
+
+    &__resource-icon{
+        flex-shrink: 0;
+        object-fit: contain;
+
+        &--arxiv{
+            width: 1.3rem;
+            height: 1.3rem;
+        }
+
+        &--huggingface{
+            width: 1.65rem;
+            height: 1.65rem;
+        }
+
+        &--github{
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+    }
+
+    &__heading{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__table-scroll{
+        max-width: 100%;
+        overflow-x: auto;
+        margin: 1rem 0;
+    }
+
+    &__table{
+        width: 100%;
+        border-collapse: collapse;
+        font-size: inherit;
+        line-height: inherit;
+
+        caption{
+            text-align: left;
+            margin-bottom: 0.5rem;
+        }
+
+        th, td{
+            padding: 0.5rem;
+            border-bottom: 1px solid currentColor;
+            text-align: left;
+            vertical-align: top;
+            overflow-wrap: anywhere;
+        }
+
+        tbody th{
+            font-weight: normal;
+        }
+    }
+
+}

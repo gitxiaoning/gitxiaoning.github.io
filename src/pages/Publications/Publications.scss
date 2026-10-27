@@ -1,0 +1,26 @@
+@use "../../../styles/partials/variables";
+
+
+.publications{
+
+    &__title{
+        font-weight: normal;
+    }
+
+    &__list{
+        list-style-type: None;
+    }
+
+    &__paper{
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover .publications__paper-title,
+        &:focus-visible .publications__paper-title{
+            text-decoration: underline;
+        }
+    }
+
+}

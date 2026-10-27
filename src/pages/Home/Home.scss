@@ -1,0 +1,94 @@
+@use "../../../styles/partials/variables";
+
+.home{
+  &__title{
+    font-weight: normal;
+  }
+
+  &__main{
+    margin-top: 0rem;
+    width: 100% ;
+  }
+
+  &__uiuc{
+    height: 1.2rem;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.1rem;
+    cursor: pointer;
+  }
+
+  &__uoft{
+    height: 1.6rem;
+    vertical-align: middle;
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+  }
+
+  &__seperator{
+    height: 1.5px;
+    background-color:variables.$TEXT_COLOR;
+    width: 40%;
+    border-radius: 0%;
+    opacity: 0.7;
+    min-width: 160px;
+  }
+
+  &__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 30%;
+    min-width: 160px;
+  }
+
+  &__bluesky{
+    margin-top: 0.3rem;
+    width: 15%;
+    fill: variables.$TEXT_COLOR;
+    opacity: 0.8;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.3;
+    }
+  }
+
+  &__googlescholar{
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    width: 15%;
+    border-radius: 14%;
+    color: variables.$TEXT_COLOR;
+    opacity: 0.8;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.3;
+    }
+  }
+
+  &__linkedin{
+    margin-top: 0.23rem;
+    margin-left: 0.5rem;
+    width: 15%;
+    border-radius: 14%;
+    color: variables.$TEXT_COLOR;
+    opacity: 0.6;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.2;
+    }
+  }
+
+  &__huggingface{
+    width: 20%;
+    margin-left: 0.3rem;
+    margin-top: 0.245rem;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.2;
+    }
+  }
+}

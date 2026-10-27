@@ -1,5 +1,3 @@
-@use "../styles/partials/variables";
-
 .app{
   display: flex;
   // flex-direction: column;
@@ -39,6 +37,11 @@
       line-height: 1.6rem;
       text-decoration: underline;
 
+      a{
+        color: inherit;
+        text-decoration: inherit;
+      }
+
       &:hover{
         cursor: pointer;
         color: #0072B8;
@@ -49,97 +52,14 @@
 
   &__content{
     width: 400px;
+    font-size: 1rem;
+    line-height: 1.6rem;
 
-    &-title{
+    h1{
+      font-size: 2em;
       font-weight: normal;
+      line-height: normal;
     }
-
-    &-main{
-      line-height: 1.6rem;
-      font-size: 1rem;
-      margin-top: 0rem;
-      width: 100% ;
-    }
-
-    &-uiuc{
-      height: 1.2rem;
-      vertical-align: middle;
-      margin-left: 0.4rem;
-      margin-right: 0.4rem;
-      margin-bottom: 0.1rem;
-      cursor: pointer;
-    }
-
-    &-uoft{
-      height: 1.6rem;
-      vertical-align: middle;
-      margin-left: 0.1rem;
-      margin-right: 0.2rem;
-      margin-bottom: 0.3rem;
-      cursor: pointer;
-    }
-
-    &-seperator{
-      height: 2px;
-      background-color:variables.$TEXT_COLOR;
-      width: 40%;
-      border-radius: 15%;
-      opacity: 0.7;
-      min-width: 160px;
-    }
-
-    &-container{
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      width: 30%;
-      min-width: 160px;
-    }
-
-    &-bluesky{
-      margin-top: 0.3rem;
-      width: 15%;
-      fill: variables.$TEXT_COLOR;
-      opacity: 0.8;
-      &:hover{
-        cursor: pointer;
-        opacity: 0.3;
-      }
-    }
-
-    &-googlescholar{
-      margin-top: 0.2rem;
-      margin-left: 0.5rem;
-      width: 15%;
-      border-radius: 14%;
-      color: variables.$TEXT_COLOR;
-      opacity: 0.8;
-      &:hover{
-        cursor: pointer;
-        opacity: 0.3;
-      }
-    }
-
-    &-linkedin{
-      margin-top: 0.23rem;
-      margin-left: 0.5rem;
-      width: 15%;
-      border-radius: 14%;
-      color: variables.$TEXT_COLOR;
-      opacity: 0.6;
-      &:hover{
-        cursor: pointer;
-        opacity: 0.2;
-      }
-    }
-
-
-
-
-
   }
 
 }
-
-
-
