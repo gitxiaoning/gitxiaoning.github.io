@@ -12,7 +12,13 @@ function Publications() {
                 <h2 className='publications__title'>2026</h2>
                 <ul className="publications__list">
                     <li>
-                        <a className="publications__paper" href="https://arxiv.org/abs/2609.25669">
+                        <a className="publications__paper" href="https://direct.mit.edu/coli/article/doi/10.1162/COLI.a.664/139660/Revisiting-the-Sound-Meaning-Systematicity-A-Fine">
+                            Xiaoxi Luo, Abeer Kashar, Yuxuan Li, <b>Xiaoning Wang</b>, Freda Shi "<span className="publications__paper-title">Revisiting the Sound–Meaning Systematicity: A Fine-Grained Computational Analysis</span>". In CL.
+                        </a>
+                    </li>
+                    <br></br>
+                    <li>
+                        <a className="publications__paper" href="https://aclanthology.org/2026.emnlp-main.731/">
                             <b>Xiaoning Wang</b>, Ted Underwood, and Zhewei Sun. "<span className="publications__paper-title">From Utterances to Networks: Modelling Slang Adoption and Diffusion Across Subreddits</span>". In EMNLP 2026.
                         </a>
                     </li>
