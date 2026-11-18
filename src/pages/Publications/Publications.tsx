@@ -31,6 +31,7 @@ function Publications() {
                 </ul>
 
                 <br></br>
+                {/* 2024 publications */}
                 <h2 className='publications__title'>2024</h2>
                 <ul className="publications__list">
                     <li>

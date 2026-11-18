@@ -5,7 +5,7 @@ function ProjectList(){
 
     return (
         <>
-            <h1 className="projectlist__title">list of projects</h1>
+            <h1 className="projectlist__title">projects</h1>
             <br></br>
             <ol className="projectlist__list"> 
                         <li className="projectlist__item">

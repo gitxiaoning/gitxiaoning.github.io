@@ -15,6 +15,7 @@
 
   &__sidebar{
     display: flex;
+    flex-shrink: 0;
     margin-right:1.3rem;
 
     &-list{
@@ -52,6 +53,8 @@
 
   &__content{
     width: 400px;
+    min-width: 0;
+    overflow-wrap: anywhere;
     font-size: 1rem;
     line-height: 1.6rem;
 

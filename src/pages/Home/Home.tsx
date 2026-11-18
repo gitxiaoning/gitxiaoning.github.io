@@ -31,7 +31,7 @@ function Home() {
 
 
                 <div className="home__links">
-                    <hr className="home__seperator" / >
+                    {/* # <hr className="home__seperator" / > */}
                     <div className="home__container">
                         <img src={bluesky} onClick= {() => {openInNewWindow("https://bsky.app/profile/xiaoningwang.ca")}} className="home__bluesky" alt="bluesky icon"></img>
                         <img src={googlescholar} onClick= {() => {openInNewWindow("https://scholar.google.com/citations?user=Wt1KbjUAAAAJ&hl")}} className="home__googlescholar" alt="google scholar icon"></img>
